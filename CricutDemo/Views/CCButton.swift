@@ -19,21 +19,3 @@ struct CCButton: View {
         .foregroundColor(.blue)
     }
 }
-
-
-//{
-//   "buttons":[
-//      {
-//         "name":"Circle",
-//         "draw_path":"circle",
-//      },
-//      {
-//         "name":"Square",
-//         "draw_path":"square",
-//      },
-//      {
-//         "name":"Triangle",
-//         "draw_path":"triangle",
-//      },
-//   ]
-//}

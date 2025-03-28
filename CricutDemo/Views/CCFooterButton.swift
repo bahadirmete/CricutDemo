@@ -18,7 +18,6 @@ struct CCFooterButton: View {
                 }
                 
                 CCButton(title: button.name) {
-                    print("\(button.name) tapped, path: \(button.draw_path)")
                     onItemAdded(button.name, button.draw_path)
                 }
             }
