@@ -2,7 +2,7 @@
 //  CricutDemoApp.swift
 //  CricutDemo
 //
-//  Created by BB Mete on 3/26/25.
+//  Created by BB Mete on 3/27/25.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct CricutDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CCMainPage(viewModel: CCShapeViewModel())
         }
     }
 }
